@@ -1,0 +1,16 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.logo-rock{
+  width: 40px;
+}
+.rock-onebitcode{
+  width: 200px;
+}
+.header{
+  background-color:black;
+  display: flex;
+  justify-content: space-between;
+}

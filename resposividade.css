@@ -1,0 +1,51 @@
+@media(max-width:1140px){
+  .img{
+    width: 100%;
+    height: auto;
+  }
+  .text-content{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .title-content{
+    color: red;
+    font-size:4rem;
+    border-bottom:1px dashed red ;
+  }
+}
+@media(max-width:769px){
+  .img{
+  width: 100%;
+  height: auto;
+  }
+.title-content{
+  color:red;
+}
+  .text-content{
+    font-size:1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+@media(max-width:425px){
+  .img{
+    width: 100%;
+    height: auto;
+  }
+  .text-content{
+    font-size:16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  .title-content{
+    color:red;
+    text-align: center;
+  }
+}
+@media(max-width:280px){
+  .title-content{
+    font-size: 1.5rem;
+  }
+  .text-content{
+    font-size: 14px;
+  }
+}

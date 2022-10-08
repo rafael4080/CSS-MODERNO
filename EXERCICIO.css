@@ -1,0 +1,43 @@
+.conteiner{
+  background-color:#e7e7e7;
+  min-height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:10px;
+}
+.cabecalho{
+  background-color:white;
+  padding: 10px;
+  border: 1px solid black;
+}
+.item-cabecalho{
+  display: flex;
+  justify-content: center;
+}
+.item{
+  /*width: 200px;*/
+  height: 200px;
+  border:1px solid red;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis:200px;
+  flex-grow: 0;
+}
+.rodapé{
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+.item1{  flex-grow: 1; }
+.item2{flex-grow: 1; }
+.item3{flex-grow: 1; }
+.item4{flex-grow: 1; }
+.item5{flex-grow: 1; }
+.item6{flex-grow: 1; }
